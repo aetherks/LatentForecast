@@ -15,7 +15,6 @@ data[np.isnan(data)] = 0
 data[data>10000] = 0
 data[data<-10000] = 0
 print(data.shape)
-
 train_data = []
 test_data = []
 
